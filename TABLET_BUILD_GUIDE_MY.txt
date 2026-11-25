@@ -1,0 +1,14 @@
+စိုးသန်းဂိမ်း APK တည်ဆောက်ရန် (Tablet တစ်လုံးတည်း)
+
+ဒီ ZIP သည် Android Studio project ဖြစ်ပြီး APK မဟုတ်သေးပါ။ GitHub Actions ဖြင့် cloud မှာ build လုပ်ရန် workflow ထည့်ထားသည်။
+
+အဆင့်များ:
+1. Chrome ဖြင့် https://github.com သို့ဝင်ပြီး အကောင့်ဝင်ပါ (မရှိလျှင် Sign up လုပ်ပါ)။
+2. + > New repository ကိုနှိပ်ပါ။ Repository name ကို SoeThanGame ဟုရေးပါ။ Public ရွေးပြီး Create repository နှိပ်ပါ။
+3. Add file > Upload files ကိုနှိပ်ပါ။ ဒီ ZIP ကို မတင်ပါနှင့်။ ZIP ကို Tablet ရဲ့ Files app မှာ Extract လုပ်ပြီး အတွင်းက project ဖိုင်/ဖိုလ်ဒါအားလုံးကို upload လုပ်ရပါမယ်။ .github folder အပါအဝင် ဖိုင်ဖွဲ့စည်းပုံအတိုင်း အမြစ်(root) မှာရှိရပါမယ်။
+4. Commit changes နှိပ်ပါ။
+5. Repository ရဲ့ Actions tab ကိုဝင်ပါ။ Build SoeThanGame APK workflow ကိုရွေးပြီး Run workflow > Run workflow နှိပ်ပါ။
+6. Build ပြီးလျှင် workflow run ကိုဖွင့်ပါ။ Artifacts အောက်က SoeThanGame-APK ကိုနှိပ်ပြီး ZIP download လုပ်ပါ။
+7. Download ရလာတဲ့ artifact ZIP ကို Extract လုပ်ပါ။ အထဲက app-debug.apk ကိုနှိပ်ပြီး install လုပ်ပါ။ ပထမဆုံးအကြိမ်ဆို Settings မှာ ဒီ browser/File Manager ကနေ Install unknown apps ကို ခွင့်ပြုရနိုင်ပါတယ်။
+
+မှတ်ချက်: GitHub interface ပေါ်မူတည်ပြီး Android Chrome မှာ ဖိုင်များ upload လုပ်ရာတွင် အခက်အခဲရှိနိုင်သည်။ Build မအောင်မြင်ပါက Actions မှ error screenshot ပို့ပါ။
